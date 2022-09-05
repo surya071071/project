@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerlinks}}
+</head>
+<body>
+    {{>navbar}}
+    <!---main header-->
+    <div class="container-fluid main_header  ">
+        <div class="row">
+            <!--lift side div-->
+            <div class="col-md-12 col-12 main_header_left align-items-center" >
+              <figure>
+                <img src="image/404.png" alt="surya" class="img-fluid" title="surya yadav">
+              </figure class="errimg">
+                <p>This Is Error Page </p>
+                <h1>{{errormsg}}</h1>
+                <a href="/" ><button>Go to Home</button> </a>
+            </div>
+            <!--right side div-->
+            
+        </div>
+    </div>
+</body>
+ 
+    <!-- footer code -->
+    {{>footer}}
+</html>
